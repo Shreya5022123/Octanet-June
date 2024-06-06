@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+.header{
+    background-image: url('/img/oct2.jpg');
+    color:white;
+   
+}
+.navbar{
+    font-size: 20px;
+    text-align: right;
+    padding: 10px;
+}
+a{  
+    text-decoration: none;
+    color: antiquewhite;
+    margin-right: 60px; 
+   
+}
+#logo{
+    margin-left: 45%;
+    width:180px;
+}
+h1,h3{
+    text-align: center;
+}
+h3{
+    padding-bottom: 30px;
+}
+#about{
+    background-color: beige;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+#pic{
+    width:250px;
+}
+
+    
+
