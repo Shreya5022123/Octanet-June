@@ -1,11 +1,11 @@
 body{
-    margin: 0px;
-    padding:0px;
+    margin: 0%;
+    padding:0%;
 }
 .header{
-    background-image: url('/img/oct2.jpg');
+    background-image: url('./img/oct2.png');
     color:white;
-   
+    margin: 0%;
 }
 .navbar{
     font-size: 20px;
@@ -22,14 +22,16 @@ a{
     margin-left: 45%;
     width:180px;
 }
-h1,h3{
+h1{
     text-align: center;
 }
 h3{
+    text-align: center;
     padding-bottom: 30px;
 }
 #about{
     background-color: beige;
+    
 }
 .container2{
     display: flex;
@@ -37,9 +39,79 @@ h3{
     justify-content: space-between;
     padding: 40px;
 }
-#pic{
-    width:250px;
+.h{
+    font-size: 40px;
 }
-
+.abc {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+    margin-top:50px; 
+    padding:30px;
     
+}
+.left{
+    width: 50%;
+    padding-left : 30px;
+    padding-right : 25px;
+    text-align: center;
+}
+.right{
+    width:40%;
+    padding-left:80px;
+}
+.pic2{
+    width:90%;
+}
+.text{
+    text-align: center;
+    margin:35px;
+
+}
+.pic3{
+    margin-left:100px;
+    width:40%;
+    padding-bottom: 40px;
+}
+#events{
+    background-color: #FCE4D8;
+}
+#one{
+    background-color: #8390FA;
+}
+#two{
+    background-color:#FAC748 ;
+}
+#three{
+    background-color:#F88DAD ;
+}
+#contact-us{
+    background-color: #6F1A07;
+    padding:10px;
+   
+}
+#contact{
+    display: flex;
+
+}
+input{
+    margin:20px;
+    padding:10px;
+    padding-right: 100px;
+    font-size:20px;
+    text-align: center;
+}
+.footer{
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    padding:20px;
+}
+.socialmedia{
+    margin-left: 50px;
+}
+.four{
+    font-size:25px;
+     
+}
 
