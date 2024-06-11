@@ -4,26 +4,37 @@ body{
 }
 .header{
     background-image: url('./img/oct2.png');
-    color:white;
+    color:beige;
     padding-bottom: 10px;
+    padding-top: 20px;
 }
 .navbar{
     font-size: 20px;
-    text-align: right;
-    padding: 10px;
+    padding: 20px;
+    position: fixed;
+    right:20px;
+    top:0px;
+}
+.logo{
+    position: fixed;
+    width: 100px;
+    top:0px;
 }
 a{  
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(249, 153, 138);
     margin-right: 60px; 
    
 }
-#logo{
-    margin-left: 45%;
-    width:180px;
+.nav:hover {
+   color: rgb(248, 215, 210);;
 }
 h1{
     text-align: center;
+}
+.title{
+    font-size:larger;
+    color: #3E000C;
 }
 h3{
     text-align: center;
@@ -44,7 +55,6 @@ h3{
     width:48%;
 }
 .h{
-    font-size: 40px;
     padding-bottom: 20px;
 }
 .abc {
@@ -79,7 +89,7 @@ h3{
     padding-bottom: 40px;
 }
 #events{
-    background-color: #FCE4D8;
+    background-color: #fff4ef;
     padding-top: 10px;
 }
 #one{
