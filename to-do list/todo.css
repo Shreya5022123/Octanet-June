@@ -1,7 +1,52 @@
 body{
-    background-image: url("to-do list\image\todobg.png");
+    background-image: url("./image/todobg.png");
     background-size: cover;
     margin: 0%;
     padding: 0%;
 
+}
+.container-1{
+    display:flex;
+    padding-top: 70px;
+    padding-left: 700px;
+    padding-bottom: 10px;
+}
+.logo{
+    font-size: 25px;
+    padding: 25px;
+    padding-right:80px;
+    color: rgb(65, 120, 65);
+}
+h1{
+    color: white;
+    font-family:cursive ;
+}
+.list{
+    margin: 30px;
+    margin-left: 700px;
+}
+.value{
+    background: transparent;
+    padding: 10px;
+    padding-left: 130px;
+    padding-right: 70px;
+    border-bottom: 2px solid whitesmoke;
+    margin-right: 100px;
+    font-size: 20px;
+    color: white;
+    outline:none;
+    font-family:monospace;
+    
+}
+.value::placeholder{
+    color: white;
+    font-family:monospace;
+}
+.checkbox{
+    transform: scale(1.7);
+}
+
+.list .checkbox:checked + .value {
+    text-decoration: line-through;
+    color: #999; /* Optional: Change the color of the text when checked */
 }
